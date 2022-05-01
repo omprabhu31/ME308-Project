@@ -9,9 +9,10 @@ data project.dat;
 
 # CHANGE THE SOLVER (optional)
 option solver couenne;
+#option solver gurobi;
 
 # SOLVE
 solve;
 
 # SHOW RESULTS
-display Beta, d, a;
+display Beta,A,D;
